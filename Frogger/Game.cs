@@ -54,7 +54,7 @@ namespace Frogger
 
         private void CheckIfFrogIsChillin()
         {
-            if (_frog.IsChillin)
+            if (_frog.HasWon)
             {
                 Console.Clear();
                 Console.WriteLine("You Win! Press enter to exit.");

@@ -17,7 +17,7 @@ namespace Frogger
         public int X { get; set; }
         public int Y { get; set; }
         public bool IsDead { get; private set; }
-        public bool IsChillin { get; private set; }
+        public bool HasWon { get; private set; }
 
         public void Draw()
         {
@@ -55,9 +55,10 @@ namespace Frogger
             this.IsDead = true;
         }
 
-        public void ChillBro()
+        
+        public void BroWon()
         {
-            this.IsChillin = true;
+            this.HasWon = true;
         }
     }
 }
