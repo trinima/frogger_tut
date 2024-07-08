@@ -50,7 +50,7 @@ namespace Frogger
 
         }
 
-        public void DIIIIIIEEEEEEE()
+        public void Die()
         {
             this.IsDead = true;
         }

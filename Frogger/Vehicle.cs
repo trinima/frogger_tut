@@ -32,7 +32,7 @@
         {
             if (this.X == frog.X && this.Y == frog.Y)
             {
-                frog.DIIIIIIEEEEEEE();
+                frog.Die();
             }
         }
     }
